@@ -11,15 +11,15 @@ const App = () => {
   return (
     <section className="ui container">
       <Header />
-        <div>
+      <div>
         <Route exact path="/" component={StreamList} />
         <Route exact path="/streams/new" component={StreamCreate} />
         <Route exact path="/streams/edit" component={StreamEdit} />
         <Route exact path="/streams/delete" component={StreamDelete} />
         <Route exact path="/streams/show" component={StreamShow} />
-        </div>
+      </div>
     </section>
-  )
+  );
 };
 
 export default App;
