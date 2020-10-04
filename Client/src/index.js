@@ -2,8 +2,9 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
-
 import App from './components/App/App';
+
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -11,3 +12,7 @@ ReactDOM.render(
   </BrowserRouter>,
   document.querySelector("#root")
 );
+
+require("dotenv").config();
+
+
